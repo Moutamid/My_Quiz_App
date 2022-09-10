@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ResultActivity"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#2F363E"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_view_1"
+                    style="@style/result_text_view_style"
+                    android:textSize="26sp"
+                    android:textColor="@color/white"
+                    tools:text="OHH CRAP!! YOUR SCORE IS" />
+
+                <TextView
+                    android:id="@+id/text_view_2"
+                    style="@style/result_text_view_style"
+                    android:textSize="40sp"
+                    android:textColor="@color/start_color"
+                    tools:text="20/100" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/image_view_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/emoji"
+            tools:ignore="ContentDescription" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#2F363E"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/text_view_3"
+                style="@style/result_text_view_style"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                tools:text="TOO BAD! YOU MUST READ COMICS AND WATCH MOVIES" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/restart_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:onClick="restart"
+                android:textColor="@color/purple_700"
+                android:text="@string/restart" />
+
+            <Button
+                style="@style/restart_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:textColor="@color/purple_700"
+                android:onClick="exit"
+                android:text="@string/exit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

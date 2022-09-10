@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">My Quiz</string>
+
+    <!-- - - - - - - - - - - - - - - - - -  Quiz_Activity - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <string name="title">Quick Maths Quiz</string>
+
+    <string name="question1">1. 5% of 80?</string>
+    <string name="q1_op1">4</string>
+    <string name="q1_op2">20</string>
+    <string name="q1_op3">2</string>
+    <string name="q1_op4">40</string>
+
+    <string name="question2">2. If apples sell at $17 per kg how much will 5 kg cost?</string>
+    <string name="q2_op1">50$</string>
+    <string name="q2_op2">90$</string>
+    <string name="q2_op3">67$</string>
+    <string name="q2_op4">85$</string>
+
+    <string name="question3">3. Complete the equation with arithmatic signs (+ , - , * , /) - (6 _ 6) _ 6 = 30</string>
+    <string name="q3_op1">-,+</string>
+    <string name="q3_op2">/,+</string>
+    <string name="q3_op3">*,-</string>
+    <string name="q3_op4">*,+</string>
+
+    <string name="question4">4. 1+1*1-1 ?</string>
+    <string name="q4_op1">0</string>
+    <string name="q4_op2">2</string>
+    <string name="q4_op3">-1</string>
+    <string name="q4_op4">1</string>
+
+    <string name="question5">5. Three years ago Raheela was 5 years older than Joseph. What is the difference between thies ages?</string>
+    <string name="q5_op1">7.5 years</string>
+    <string name="q5_op2">15 years</string>
+    <string name="q5_op3">5 Years</string>
+    <string name="q5_op4">None of the above</string>
+
+    <string name="question6">6. Insert Correct Number in series 0 5 12 21 __ ?</string>
+    <string name="q6_op1">32</string>
+    <string name="q6_op2">30</string>
+    <string name="q6_op3">22</string>
+    <string name="q6_op4">25</string>
+
+    <string name="question7">7. I was 12 years old in 1956. So I was 5 years old in?</string>
+    <string name="q7_op1">1948</string>
+    <string name="q7_op2">1949</string>
+    <string name="q7_op3">1950</string>
+    <string name="q7_op4">2022</string>
+
+    <string name="question8">8. Square of 15?</string>
+    <string name="q8_op1">225</string>
+    <string name="q8_op2">155</string>
+    <string name="q8_op3">75</string>
+    <string name="q8_op4">255</string>
+
+    <string name="question9">9. One third of One half is ?</string>
+    <string name="q9_op1">1/3</string>
+    <string name="q9_op2">1/2</string>
+    <string name="q9_op3">1/6</string>
+    <string name="q9_op4">2/3</string>
+
+    <string name="question10">10. Which figure is smallest ?</string>
+    <string name="q10_op1">0.17</string>
+    <string name="q10_op2">1.7</string>
+    <string name="q10_op3">3.7</string>
+    <string name="q10_op4">170</string>
+
+    <string name="submit">submit</string>
+
+    <string name="attempt_all_ques">YOU MUST ATTEMPT ALL THE QUESTIONS</string>
+
+    <!-- - - - - - - - - - - - - - - - - -  ResultActivity - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <string name="result">Result</string>
+
+    <string name="tv1_a">OHH CRAP!!! YOUR SCORE IS</string>
+    <string name="tv1_b">TOO BAD! YOU MUST READ BASIC MATHS</string>
+
+    <string name="tv2_a">NEED IMPROVEMENT!!! YOUR SCORE IS</string>
+    <string name="tv2_b">I SUGGEST YOU TO LEARN QUICK MATH</string>
+
+    <string name="tv3_a">WOW!!! YOUR SCORE IS</string>
+    <string name="tv3_b">YOU CAN REALLY ACHIEVE BETTER THAN THIS</string>
+
+    <string name="tv4_a">HURRAH!!! YOUR SCORE IS</string>
+    <string name="tv4_b">CONGRATULATIONS. YOU ARE A BIGGEST MATHS FAN</string>
+
+    <string name="from_hundred">/100</string>
+    <string name="restart">Restart</string>
+    <string name="exit">Exit</string>
+</resources>
