@@ -35,7 +35,7 @@ public class Starting_Activity extends AppCompatActivity {
         privacy_policy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://app.getterms.io/view/SPfNE/privacy/en-us"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://docs.google.com/document/d/e/2PACX-1vQSmtOyhG024vjeFYW7i8M7Anr2XQOmh7wQ_K97W4XJYdrUG2R0ZSZ_gSwAT3Sn3SkQXbPICI6LIF-n/pub"));
                 startActivity(browserIntent);
             }
         });

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Quiz</string>
+    <string name="app_name">Quick Maths Quiz</string>
 
     <!-- - - - - - - - - - - - - - - - - -  Quiz_Activity - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <string name="title">Quick Maths Quiz</string>
